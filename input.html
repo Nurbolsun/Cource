@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Input</title>
+</head>
+<body>
+	<header>
+		<nav>
+			<ul>
+				<li><h1><a href="#kon">Заявка на конференцию</a></h1></li>
+				<li><h1><a href="#send">Отправить</a></h1></li>
+				<li><h1><a href="#table">Таблица</a></h1></li>
+			</ul>
+		</nav>
+		</header>
+
+	<main>
+		<form>
+		<h2 id="kon">Отправка заявки на конференцию</h2>
+		<h3>Основные данные</h3>
+		<h4><sup>&#8727;</sup>Фамилия, имя, отчество:</h4>
+		<input type="text" name="" size="55">
+		<h4>Дата рождения:</h4>
+		<input type="date" name="">
+		<h4>Пол:</h4>
+		<input type="radio" name="man" > мужской
+		<input type="radio" name="man" > менский
+		<h2>Данные для создание личного кабинета</h2>
+		<h4><sup>&#8727;</sup>Адрес электронной почты:</h4>
+		<input type="email" size="55"  name=""><br>
+		<h4><sup>&#8727;</sup>Пароль для создания личного кабинета:</h4>
+		<input type="password" size="55" placeholder="*****" name="">
+		<h4><sup>&#8727;</sup>Потверждение пароля:</h4>
+		<input type="password" size="55" placeholder="*****" name="">
+		<h2>Материалы для конференция</h2>
+		<h4><sup>&#8727;</sup>Тема доклада:</h4>
+		<input type="text" name="" size="55">
+		<h4><sup>&#8727;</sup>Тезисы доклада (не более 1000 символов):</h4>
+		<textarea  placeholder="Ваш текст" cols="55" rows="20"></textarea>
+		<h4>Файл презентации:</h4>
+		<input type="file" name="">
+		<h2>Дополнительные опции:</h2>
+		<input type="checkbox" name="">Проживание в отеле<br>
+		<input  checked type="checkbox" name="">Завтрака<br>
+		<input type="checkbox" name="">Обед<br>
+		<input id="din" type="checkbox" name=""><label for="din">Ужин</label><br> 
+		<hr>
+		<input id="send" type="submit" value="Отправить" name="">
+		<hr>
+		<sup>&#8727;</sup>Поля,отмечены звездечкой, является обязательными для заполнение. 
+		</form><br>
+		<h2 align="center">Статистика компанию за неделю</h2>
+		<table id="table" border="1" cellpadding="5" cellspacing="0" style="width: 50%;">
+			<tr>
+				<th rowspan="2">Дата</th>
+				<th colspan="2">Доход</th>		
+				<th colspan="2">Расход</th>				
+			</tr>
+
+			<tr>
+				<td><b>План</b></td>  <td><b>Факт</b></td>	<td><b>План</b></td>   <td><b>Факт</b></td>
+			</tr>
+			<tr>
+				<td>01.02.2017</td>		<td>175 290</td>		<td>114 756</td>		<td>119 289</td>		<td>201 754</td>
+			</tr>
+			<tr>
+				<td>02.02.2017</td>		<td>145 258</td>		<td>158 313</td>		<td>156 454</td>		<td>451 515</td>
+			</tr>
+			<tr>
+				<td>03.02.2017</td>		<td>145 455</td>		<td>178 212</td>		<td>452 511</td>		<td>154 548</td>
+			</tr>
+			<tr>
+				<td>04.02.2017</td>		<td>145 454</td>		<td>198 895</td>		<td>154 454</td>		<td>145 455</td>
+			</tr>
+			<tr>
+				<td>05.02.2017</td>		<td>145 454</td>		<td>454 451</td>		<td>166 646</td>		<td>145 545</td>
+			</tr>
+			<tr>
+				<td>06.02.2017</td>		<td>484 546</td>		<td>178 454</td>		<td>155 545</td>		<td>154 545</td>
+			</tr>
+			<tr>
+				<td>07.02.2017</td>		<td>456 451</td>		<td>178 787</td>		<td>454 551</td>		<td>178 787</td>
+			</tr>
+			<tr>
+				<td><b>Итого</b></td>		<td><b>455 454</b></td>		<td><b>455 454</b></td>		<td><b>455 454</b></td>		<td><b>455 454</b></td>
+			</tr>
+		</table>
+
+
+	</main>
+
+	<footer>
+		
+		</footer>
+</body>
+</html>
