@@ -1,0 +1,20 @@
+.head {
+	color: white;
+	padding: 20px 0;
+	background: #00122F;
+}
+
+.container {
+	width: 1000px;
+	margin: auto;
+}
+.container > a {
+	color: white;
+}
+.data {
+	float: right;
+}
+img {
+	position: relative;
+	padding: 40px 0;
+}
