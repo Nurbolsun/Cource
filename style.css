@@ -18,3 +18,10 @@ img {
 	position: relative;
 	padding: 40px 0;
 }
+
+li {
+	display: inline-block;
+	float: left;
+    padding-top: 42px;
+    padding-left: 42px;
+}
