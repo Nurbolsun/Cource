@@ -1,3 +1,8 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	min-width: 1000px;
+}
 .head {
 	color: white;
 	padding: 20px 0;
@@ -5,7 +10,7 @@
 }
 
 .container {
-	width: 1000px;
+	width: 990px;
 	margin: auto;
 }
 .container > a {
@@ -14,7 +19,7 @@
 .data {
 	float: right;
 }
-img {
+.logo img {
 	position: relative;
 	padding: 40px 0;
 }
@@ -22,6 +27,35 @@ img {
 li {
 	display: inline-block;
 	float: left;
-    padding-top: 42px;
     padding-left: 42px;
+}
+
+.menu {
+	margin-left: 0;
+}
+.menu ul {
+	padding: 0;
+}
+.column {
+	margin-top: 70px;
+}
+
+.column-left {
+	background-color: red;
+	width: 250px;
+	float: left;
+}
+.column-center {
+	background: green;
+	width: 450px;
+	margin-left: 20px;
+	float: left;
+}
+.column-right {
+	width: 250px;
+	float: right;
+}
+
+.column-right img {
+	padding-bottom: 20px;
 }
