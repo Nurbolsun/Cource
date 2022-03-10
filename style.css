@@ -8,6 +8,13 @@ html, body {
 	padding: 20px 0;
 	background: #00122F;
 }
+h2 {
+	font-family: Arial;
+	font-size:20px ;
+	padding: 27px 0 27px 18px;
+	margin: 0 0 24px;
+	border-bottom: 1px solid #91919f;
+}
 
 .container {
 	width: 990px;
@@ -28,7 +35,7 @@ html, body {
 li {
 	display: inline-block;
 	float: left;
-    padding-left: 42px;
+    padding-right: 42px;
 }
 
 .menu {
@@ -36,11 +43,12 @@ li {
 }
 .menu ul {
 	padding: 0;
+	float: left;
 }
 .central-container {
 	margin-top: 70px;
 	padding-top: 20px;
-	background-color: #f9f9f9;
+	background-color: #ffffff;
 	background-image: url("img/central-bg-top.png");
 	background-repeat: repeat-x;
 }
@@ -49,10 +57,45 @@ li {
 }
 
 .column-left {
-	background-color: red;
+	background-color: rgb(255, 255, 255);
 	width: 250px;
 	float: left;
 }
+
+.news-item {
+	padding-left: 18px;
+	margin-bottom: 27px;
+	font-size: 14px;
+}
+.news-text {
+	margin-bottom: 20px;
+}
+.news-props {
+	font-size: 12px;
+	position: relative;
+}
+
+.news-props a {
+	color: #91919f;
+	text-decoration: none;
+}
+.news-time {
+	position: absolute;
+	top: 0;
+	padding-left: 15px;
+	left: 120px;
+	background-image: url("img/icon-time.png");
+	background-repeat: no-repeat;
+}
+.news-coments {
+	position: absolute;
+	top: 0;
+	left: 180px;
+	padding-left: 15px;
+	background-image: url("img/icon-comments.png");
+	background-repeat: no-repeat;
+}
+
 .column-center {
 	background: green;
 	width: 450px;
