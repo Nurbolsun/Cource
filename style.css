@@ -12,6 +12,7 @@ html, body {
 .container {
 	width: 990px;
 	margin: auto;
+	position: relative;
 }
 .container > a {
 	color: white;
@@ -36,8 +37,15 @@ li {
 .menu ul {
 	padding: 0;
 }
-.column {
+.central-container {
 	margin-top: 70px;
+	padding-top: 20px;
+	background-color: #f9f9f9;
+	background-image: url("img/central-bg-top.png");
+	background-repeat: repeat-x;
+}
+.central-container .container {
+	overflow-y: hidden;
 }
 
 .column-left {
