@@ -32,10 +32,42 @@ h2 {
 	padding: 40px 0;
 }
 
+.search {
+	width: 318px;
+	height: 44px;
+	border-radius: 20px;
+	border-color: transparent;
+	float: right;
+	margin-top: -100px;
+	padding-right: 10px;
+	background-color: #F3F3F3;
+}
+input::placeholder {
+	padding-left: 15px;
+}
+
+.city {
+    position: relative;
+    left: 210px;
+    /* top: -68px; */
+    bottom: 70px;
+    /* float: right; */
+}
+
 li {
 	display: inline-block;
 	float: left;
     padding-right: 42px;
+}
+
+li::after {
+    content: "";
+    background-color: #dcdcd9;
+    width: 1.5px;
+    height: 15px;
+    position: absolute;
+    transform: rotate(25deg);
+    margin-left: 15px;
 }
 
 .menu {
@@ -48,7 +80,7 @@ li {
 .central-container {
 	margin-top: 70px;
 	padding-top: 20px;
-	background-color: #ffffff;
+	background-color: #F9F9F9;
 	background-image: url("img/central-bg-top.png");
 	background-repeat: repeat-x;
 }
