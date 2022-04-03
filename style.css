@@ -129,7 +129,6 @@ li::after {
 }
 
 .column-center {
-	background: green;
 	width: 450px;
 	margin-left: 20px;
 	float: left;
@@ -138,20 +137,30 @@ li::after {
 .center-main a {
 	position: absolute;
 	z-index: 2;
-	font-size: 12px;
+	font-size: 14px;
 	color: white;
 	top: 115px;
 	padding-left: 20px;
 }
-.center-main h1 {
+.text-center {
 	position: absolute;
+	color: white;
+	max-width: 350px;
+	font-family: Arial;
+	font-size: 30px;
 	z-index: 2;
 	top: 150px;
 	padding-left: 20px;
 }
+
 .center-iteam {
-	position: relative;
+	position: absolute;
 	z-index: 2;
+	top: 260px;
+	margin-left: 20px;
+}
+.center-news {
+	margin-top: 15px;
 }
 /*.center-main .news-date {
 	position: absolute;
